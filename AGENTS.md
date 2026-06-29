@@ -1,7 +1,7 @@
 # DOX framework — SpectreSuite
 
 **Cybersecurity tool suite — security testing and analysis toolkit**
-**Stack:** TypeScript, Security Tool
+**Stack:** Next.js App Router, TypeScript, Tailwind CSS, Clerk (auth), Convex (backend), Vitest (testing)
 
 - DOX is highly performant AGENTS.md hierarchy installed here
 - Agent must follow DOX instructions across any edits
@@ -79,8 +79,19 @@ Default section order:
 
 ## User Preferences
 
-When the user requests a durable behavior change, record it here or in the relevant child AGENTS.md
+- Git author MUST be `gashotoxic <denismugo101@gmail.com>` for Vercel deploys.
+- This is GashoTech's cybersecurity product — handle evasion/payload code with care.
+- Only use evasion techniques in authorized pentest engagements. Document each with goal and detection vector.
+- TypeScript strict mode for all new code.
+- Run `npm run test` (Vitest) before pushing.
 
 ## Child DOX Index
 
-This project is not yet indexed. Before continuing you must scan the project, build the DOX tree and replace this message with the actual index. Go deep and scan files recursively to properly evaluate complexity and create nested DOX files where needed.
+- [app/](./app/AGENTS.md) — Next.js App Router (security tool routes + layouts)
+  - [app/api/](./app/api/AGENTS.md) — API route handlers
+  - [app/auth/](./app/auth/AGENTS.md) — Auth-gated routes
+  - [app/components/](./app/components/AGENTS.md) — UI components
+  - [app/tests/](./app/tests/AGENTS.md) — Route tests
+- [lib/](./lib/AGENTS.md) — Shared library code
+  - [lib/evasions/](./lib/evasions/AGENTS.md) — Security evasion techniques
+- [styles/](./styles/AGENTS.md) — Global stylesheets
